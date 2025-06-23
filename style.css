@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #003566;
+  margin-bottom: 30px;
+}
+
+.cuaca-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.kota {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.kota:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.kota h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #0077b6;
+}
+
+.kota p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.cuaca-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #f4a261;
+}
